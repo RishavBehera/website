@@ -1,0 +1,265 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+html{
+    font-size:62.5%;
+}
+p{
+    font-weight: 300;
+    color:#111;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    z-index:10000;
+    align-items:center;
+    width:100%;
+    padding:4rem 10rem;
+    transition:0.5s;
+}
+header .logo{
+    color:white;
+    font-size:3rem;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+/* header .sticky{
+    background:white;
+    padding:1rem 10rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);  */
+    
+
+header .logo span{
+    color:red;
+}
+header .navigation{
+    display:flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-right:11rem;
+    
+}
+header .navigation li a{
+    text-decoration:none;
+    color:white;
+    font-weight: 300;
+    font-size:2rem;
+    transition:0.2s;
+}
+header .navigation li a:hover{
+    border-bottom:solid green 0.5rem;
+}
+.banner{
+    display:flex;
+    width:100;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner .content{
+    max-width: 90rem;
+    text-align:center;
+
+}
+.banner .content h2{
+    font-size:5rem;
+    color:white;
+}
+.banner .content p{
+    font-size:2rem;
+    color:white
+}
+.btn{
+    font-size:2rem;
+    display:inline-block;
+    background-color: red;
+    color:white;
+    letter-spacing:2px;
+    padding:1rem 3rem;
+    text-decoration:none;
+    border-radius:2rem;
+    margin-top:2rem;
+    transition:0.5s;
+    
+}
+.btn:hover{
+    letter-spacing:6px;
+}
+section{
+    padding:10rem 12rem;
+}
+.about{
+    position:relative;
+}
+.row{
+    display:flex;
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    
+}
+.row .col{
+    position:relative;
+    width:48%;
+    
+    
+
+}
+.row .col h2{
+    font-size:3rem;
+    font-weight: 300;
+    
+
+}
+.row .col h2 span{
+    color:red;
+    font-weight: 700;
+    font-size:5rem;
+
+}
+.row .col p{
+    font-size:1.5rem;
+    font-weight: 500;
+    margin-bottom:2rem;
+    padding-bottom: 2rem;
+}
+.desc{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-around;
+    gap:0.5rem;
+}
+.img1{
+    width:60rem;
+    height:40rem;
+}
+.menu{
+
+    position: relative;
+}
+.contdesc{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    gap:2rem;
+}
+.contdesc h2{
+    font-size:4rem;
+    font-weight:300;
+}
+.contdesc h2 span{
+    color:red;
+    font-size:6rem;
+}
+.contdesc p{
+    font-size:3em;
+    font-weight: 300;
+}
+
+.contentwrap{
+    display:flex;
+    justify-content:center;
+    flex-direction:row-reverse;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+.menucontent{
+    width:300px;
+    margin:20px;
+    border:5px solid #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+.menucontent .imgbx1{
+    position:relative;
+    width:100%;
+    height:300px;
+}
+.menucontent .imgbx1 img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    object-fit: cover;
+}
+.menucontent .text{
+    padding:15px 0px 5px;
+}
+.menucontent .text h3{
+    font-size:1.5rem;
+
+}
+.expert{
+    position:relative;
+    
+
+}
+.expert .title{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:5rem;
+    height:15rem;
+}
+.expert .title h2{
+    font-size:4rem;
+    font-weight:300;
+
+}
+.expert .title h2 span{
+    color:red;
+    font-size:6rem;
+}
+.expert .title p{
+    font-size:3em;
+    font-weight:300;
+    
+}
+.expert .chefsdetails{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+.expert .chefsdetails .chefcontent{
+    width:40rem;
+    margin:2rem;
+    border:5px solid #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+.expert .chefsdetails .chefcontent .chefimage{
+    position: relative;
+    width:100%;
+    height:30rem;
+}
+.expert .chefsdetails .chefcontent .chefimage img{
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:30rem;
+    position: absolute;
+}
+.chefcontent .cheftext{
+    padding:15px 0px 5px;
+}
+.chefcontent .cheftext h3{
+    font-size:1.5rem;
+
+}
+
